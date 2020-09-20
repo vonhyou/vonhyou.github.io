@@ -1,0 +1,46 @@
+I"�<p>通過通關<a href="http://rubykoans.com/"><code class="language-plaintext highlighter-rouge">ruby koans</code></a>等實現ruby-lang的再入門</p>
+
+<!--more-->
+
+<h2 id="關於ruby-koans">關於Ruby Koans</h2>
+
+<p>在我剛開始學Ruby的時候就聽說過該項目，但苦於學業繁忙，一直沒機會嘗試。</p>
+
+<p>我認爲該項目十分適合有一定編程基礎的人瞭解Ruby，入門Ruby</p>
+
+<blockquote>
+  <p>The Koans walk you along the path to enlightenment in order to learn Ruby. <strong>The goal is to learn the Ruby language, syntax, structure, and some common functions and libraries. <em>We also teach you culture.</em></strong> Testing is not just something we pay lip service to, but something we live. It is essential in your quest to learn and do great things in the language.</p>
+</blockquote>
+
+<p>通過koans的281關以及註釋中貼心的小問題，初學者可以在探索中逐步學習ruby，同時避免的紙上談兵。這是任何教材都很難達到的。</p>
+
+<p>在此我強烈建議在通過常規方式（書籍，視頻等）學習的同時，通過<code class="language-plaintext highlighter-rouge">ruby koans</code>來加深對她的理解。</p>
+
+<p>項目官網：<a href="http://rubykoans.com/">rubykoans.com</a></p>
+
+<p>學習建議：</p>
+
+<ol>
+  <li>
+    <p>能較爲熟練的使用命令行——尤其是使用ruby的交互式shell <code class="language-plaintext highlighter-rouge">irb</code></p>
+  </li>
+  <li>
+    <p>使用合適的文本編輯器——官方給出了幾個例子，這裏我推薦vscode</p>
+  </li>
+</ol>
+
+<p><img src="https://i.imgur.com/1DR0tCi.png" alt="screenshot of my vscode" /></p>
+
+<ol>
+  <li>
+    <p>有一定的編程基礎，不然你很可能會無從下手qwq</p>
+  </li>
+  <li>
+    <p>在項目根目錄運行 <code class="language-plaintext highlighter-rouge">$ ruby path_to_enlightenment.rb</code>，然後 Feel free to learn!</p>
+  </li>
+</ol>
+
+<p>ps: 我在闖關過程中加了一些筆記，本來是用英語寫的，但是考慮到可能和項目本身的註釋搞混，就用了中文。好處是比較明顯</p>
+
+<p>然而所謂“筆記”最後演變成了吐槽….（捂臉</p>
+:ET

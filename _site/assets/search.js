@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Post with Header Image",'url':"/2018/06/01/header-image.html"},{'title':"Welcome",'url':"/2018/07/01/welcome.html"},{'title':"Hello World",'url':"/2020/08/26/hello-world.html"},{'title':"過期薯條同學的Ruby再入門",'url':"/2020/08/31/Ruby%E5%86%8D%E5%85%A5%E9%96%80.html"},{'title':"WSL下Rust的安裝",'url':"/2020/09/03/installRust.html"}]};

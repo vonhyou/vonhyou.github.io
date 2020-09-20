@@ -1,0 +1,79 @@
+I"�<p>Welcome to Klein Log, a normal website.</p>
+
+<p>歡迎來到一個普通的網站：克萊因記錄</p>
+
+<!--more-->
+
+<h1 id="heading-1">Heading 1</h1>
+
+<h2 id="二級標題">二級標題</h2>
+
+<blockquote>
+  <p>這是引用</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">It</th>
+      <th style="text-align: center">is</th>
+      <th style="text-align: center">a</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">A</td>
+      <td style="text-align: center">B</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">L</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">E</td>
+    </tr>
+  </tbody>
+</table>
+
+\[{
+F_n=\frac{\phi^n - \psi^n}{\phi - \psi} = \frac{\phi^n - \psi^n}{\sqrt5}\\\\
+\phi = \frac{1 + \sqrt5}2\\\\
+\psi = \frac{1 - \sqrt5}2
+}\]
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;cstdio&gt;
+#include &lt;cctype&gt;
+</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">MAXN</span> <span class="o">=</span> <span class="mi">10010</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">fa</span><span class="p">[</span><span class="n">MAXN</span><span class="p">],</span> <span class="n">rank</span><span class="p">[</span><span class="n">MAXN</span><span class="p">];</span>
+
+<span class="kr">inline</span> <span class="kt">int</span> <span class="nf">getInt</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">sum</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="kt">char</span> <span class="n">_c</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">isdigit</span><span class="p">(</span><span class="n">_c</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">()));</span>
+  <span class="k">do</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="n">_c</span> <span class="o">-</span> <span class="sc">'0'</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">isdigit</span><span class="p">(</span><span class="n">_c</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">()));</span>
+  <span class="k">return</span> <span class="n">sum</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">getfa</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">fa</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">==</span> <span class="n">x</span> <span class="o">?</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fa</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">getfa</span><span class="p">(</span><span class="n">fa</span><span class="p">[</span><span class="n">x</span><span class="p">]);</span> <span class="p">}</span>
+
+<span class="kr">inline</span> <span class="kt">bool</span> <span class="nf">querySet</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">getfa</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="n">getfa</span><span class="p">(</span><span class="n">y</span><span class="p">);</span> <span class="p">}</span>
+
+<span class="kr">inline</span> <span class="kt">void</span> <span class="nf">mergeSet</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">fx</span> <span class="o">=</span> <span class="n">getfa</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">fy</span> <span class="o">=</span> <span class="n">getfa</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">rank</span><span class="p">[</span><span class="n">fx</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">rank</span><span class="p">[</span><span class="n">fy</span><span class="p">])</span> <span class="o">++</span><span class="n">rank</span><span class="p">[</span><span class="n">fx</span><span class="p">],</span> <span class="n">fa</span><span class="p">[</span><span class="n">fy</span><span class="p">]</span> <span class="o">=</span> <span class="n">fa</span><span class="p">[</span><span class="n">fx</span><span class="p">];</span>
+  <span class="k">else</span> <span class="o">++</span><span class="n">rank</span><span class="p">[</span><span class="n">fy</span><span class="p">],</span> <span class="n">fa</span><span class="p">[</span><span class="n">fx</span><span class="p">]</span> <span class="o">=</span> <span class="n">fa</span><span class="p">[</span><span class="n">fy</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="n">getInt</span><span class="p">(),</span> <span class="n">m</span> <span class="o">=</span> <span class="n">getInt</span><span class="p">();</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">fa</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+  <span class="k">do</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">z</span> <span class="o">=</span> <span class="n">getInt</span><span class="p">(),</span> <span class="n">x</span> <span class="o">=</span> <span class="n">getInt</span><span class="p">(),</span> <span class="n">y</span> <span class="o">=</span> <span class="n">getInt</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">z</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="n">mergeSet</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">);</span>
+    <span class="k">else</span> <span class="n">puts</span><span class="p">(</span><span class="n">querySet</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">?</span> <span class="s">"Y"</span> <span class="o">:</span> <span class="s">"N"</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="o">--</span><span class="n">m</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+:ET
