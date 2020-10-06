@@ -25,6 +25,8 @@ RAY ELDATH <p align = "right"><a href = https://ray-eldath.me>:heart:han.ninja</
 
 Lovely's Blog <p align = "right"><a href = http://blog.dmcmi.top>:heart:blog.dmcmi.top</a></p>
 
+明心 <p align = "right"><a href = https://subrige.xyz>:heart:subrige.xyz</a></p>
+
 VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:gmdlvoy.blogspot.com</a></p>
 
 ムえ<p align = "right"><a href = https://blog.murez.site>:heart:blog.murez.site</a></p>
