@@ -1,0 +1,25 @@
+I"s<p>算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</p>
+
+<!--more-->
+
+<p>环境：</p>
+
+<blockquote>
+  <p>go version go1.15.2 linux/amd64</p>
+
+  <p>wsl Arch</p>
+
+  <p>vscode + goimport</p>
+</blockquote>
+
+<h2 id="lv0--hello-world">lv0 -“hello, world!”</h2>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"hello, world!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET
