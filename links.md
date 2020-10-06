@@ -16,6 +16,11 @@ Kevin's Blog <p align = "right"><a href = http://blog.kevinfly.com>:heart:blog.k
 
 Raptazure <p align = "right"><a href = https://raptazure.github.io>:heart:raptazure.github.io</a></p>
 
+银河美术馆 <p align = "right"><a href = https://beautyyu.one>:heart:beautyyu.one</a></p>
+
+
+红茶馆 <p align = "right"><a href = https://onlyblacktea.cn>:heart:onlyblacktea.cn</a></p>
+
 
 VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:gmdlvoy.blogspot.com</a></p>
 
