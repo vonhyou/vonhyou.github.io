@@ -14,6 +14,9 @@ Labelray's Blog <p align = "right"><a href = http://labelray.top>:heart:labelray
 
 Kevin's Blog <p align = "right"><a href = http://blog.kevinfly.com>:heart:blog.kevinfly.com</a></p>
 
+Raptazure <p align = "right"><a href = https://raptazure.github.io>:heart:raptazure.github.io</a></p>
+
+
 VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:gmdlvoy.blogspot.com</a></p>
 
 ムえ<p align = "right"><a href = https://blog.murez.site>:heart:blog.murez.site</a></p>
