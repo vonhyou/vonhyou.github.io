@@ -1,0 +1,262 @@
+I"�P<p>算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</p>
+
+<!--more-->
+
+<p>环境：</p>
+
+<blockquote>
+  <p>go version go1.15.2 linux/amd64</p>
+
+  <p>wsl Arch</p>
+
+  <p>vscode + goimport</p>
+
+  <p>在线题解： 我的<a href="https://github.com/vonhyou/web_homework_00">blog</a></p>
+</blockquote>
+
+<h2 id="lv0--hello-world">lv0 -“hello, world!”</h2>
+
+<p>Golang版本的hello world，有种写C++的错觉</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"hello, world!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="lv1--a-simple-calculator">lv1 -A Simple Calculator</h2>
+
+<p>input:</p>
+
+<blockquote>
+  <p>1</p>
+
+  <p>+</p>
+
+  <p>2</p>
+</blockquote>
+
+<p>output:</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>输入分三行降低了处理输入数据的难度（其实并没有）</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">cal</span><span class="p">(</span><span class="n">a</span> <span class="kt">int</span><span class="p">,</span> <span class="n">cal</span> <span class="kt">string</span><span class="p">,</span> <span class="n">b</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+  <span class="k">switch</span> <span class="n">cal</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="s">"+"</span><span class="o">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+  <span class="k">case</span> <span class="s">"-"</span><span class="o">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span>
+  <span class="k">case</span> <span class="s">"*"</span><span class="o">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+  <span class="k">case</span> <span class="s">"/"</span><span class="o">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+  <span class="k">default</span><span class="o">:</span>
+    <span class="k">return</span> <span class="m">0</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="kt">int</span>
+  <span class="k">var</span> <span class="n">sig</span> <span class="kt">string</span>
+
+  <span class="c">// fmt.Scanln(&amp;a, &amp;sig, &amp;b)</span>
+
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">sig</span><span class="p">)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">cal</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">sig</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>感觉写的好丑……一点也不优雅</p>
+
+<h2 id="lv2--password-verifier">lv2 -Password Verifier</h2>
+
+<p>咱也不会异常啥的，，往简单里写，，水了水</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">user</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="k">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">string</span><span class="p">)</span>
+
+  <span class="n">user</span><span class="p">[</span><span class="s">"root"</span><span class="p">],</span> <span class="n">user</span><span class="p">[</span><span class="s">"vonhyou"</span><span class="p">]</span> <span class="o">=</span> <span class="s">"toor"</span><span class="p">,</span> <span class="s">"plmokn"</span>
+
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Print</span><span class="p">(</span><span class="s">"login:"</span><span class="p">)</span>
+  <span class="k">var</span> <span class="n">username</span><span class="p">,</span> <span class="n">pwd</span> <span class="kt">string</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">username</span><span class="p">)</span>
+
+  <span class="n">pwd</span><span class="p">,</span> <span class="n">ok</span> <span class="o">:=</span> <span class="n">user</span><span class="p">[</span><span class="n">username</span><span class="p">]</span>
+  <span class="k">if</span> <span class="n">ok</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Print</span><span class="p">(</span><span class="s">"password:"</span><span class="p">)</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">pwd</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">pwd</span> <span class="o">==</span> <span class="n">user</span><span class="p">[</span><span class="n">username</span><span class="p">]</span> <span class="p">{</span>
+      <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Welcome"</span><span class="p">,</span> <span class="n">username</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Wrong password!"</span><span class="p">)</span>
+    <span class="p">}</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"User does not exist!"</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="lv3--get-the-largest-number">lv3 -Get The Largest Number</h2>
+
+<p>应该是为了让大家熟悉for循环</p>
+
+<p>写lv3p的时候发现maxn有个小bug</p>
+
+<p>就是flag的初始值给的是假想无穷小，，好久没写代码忘了好多东西啊</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">maxn</span><span class="p">(</span><span class="n">arr</span> <span class="p">[]</span><span class="kt">int</span><span class="p">,</span> <span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">flag</span> <span class="kt">int</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="m">0</span><span class="p">]</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">flag</span> <span class="p">{</span>
+      <span class="n">flag</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="n">flag</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">n</span> <span class="kt">int</span>
+  <span class="n">a</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+  <span class="p">}</span>
+  <span class="c">// fmt.Println(a)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">maxn</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+  <span class="c">// fmt.Println(a[:n])</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="lv3plus--sort">lv3plus -Sort！</h2>
+
+<p>本来搞OI那会排序算法都忘得差不多了，，现在又让写</p>
+
+<p>索性学了学基数排序，实现了一下，，不知道有没有bug</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">maxn</span><span class="p">(</span><span class="n">arr</span> <span class="p">[]</span><span class="kt">int</span><span class="p">,</span> <span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">flag</span> <span class="kt">int</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="m">0</span><span class="p">]</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">flag</span> <span class="p">{</span>
+      <span class="n">flag</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="n">flag</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">insSort</span><span class="p">(</span><span class="n">a</span> <span class="p">[]</span><span class="kt">int</span><span class="p">,</span> <span class="n">exp</span> <span class="kt">int</span><span class="p">,</span> <span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="n">flag</span> <span class="o">:=</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">j</span> <span class="o">:=</span> <span class="n">i</span> <span class="o">-</span> <span class="m">1</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="m">0</span> <span class="o">&amp;&amp;</span> <span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">/</span><span class="n">exp</span> <span class="o">&lt;</span> <span class="n">flag</span><span class="o">/</span><span class="n">exp</span> <span class="p">{</span>
+      <span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="m">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+      <span class="n">j</span><span class="o">--</span>
+    <span class="p">}</span>
+    <span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="m">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">flag</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">radixSort</span><span class="p">(</span><span class="n">a</span> <span class="p">[]</span><span class="kt">int</span><span class="p">,</span> <span class="n">n</span> <span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">mxn</span> <span class="o">:=</span> <span class="n">maxn</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+  <span class="n">mxExp</span> <span class="o">:=</span> <span class="m">1</span>
+  <span class="k">for</span> <span class="n">mxn</span> <span class="o">&gt;=</span> <span class="m">10</span> <span class="p">{</span>
+    <span class="n">mxn</span> <span class="o">/=</span> <span class="m">10</span>
+    <span class="n">mxExp</span> <span class="o">*=</span> <span class="m">10</span>
+  <span class="p">}</span>
+
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">mxExp</span><span class="p">;</span> <span class="n">i</span> <span class="o">*=</span> <span class="m">10</span> <span class="p">{</span>
+    <span class="n">insSort</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">n</span> <span class="kt">int</span>
+  <span class="n">a</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Scanln</span><span class="p">(</span><span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="o">:=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+  <span class="p">}</span>
+  <span class="n">radixSort</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="o">:</span><span class="n">n</span><span class="p">])</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>吐槽：go有好多大括号啊，，，，丑死了，，咋和rust一个德行</p>
+
+<p>懂了，，之前的幻像（感觉像是写C++）是错的，，写go和写rust一样憋屈，，，，，（来自被ruby惯坏的过期薯条）</p>
+
+<p>关于基排的具体实现，可以看Wiki</p>
+<ul>
+  <li>
+    <p><a href="https://zh.wikipedia.org/zh-hans/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F">维基百科中文</a> 通过C++实现的</p>
+  </li>
+  <li>
+    <p><a href="https://oi-wiki.org/basic/radix-sort/">OI wiki</a> 有伪代码和C++的实现</p>
+  </li>
+</ul>
+
+<h2 id="lv4--hello-world-web-version">lv4 -“hello, world!” Web version</h2>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">"github.com/gin-gonic/gin"</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">method</span> <span class="o">:=</span> <span class="k">func</span><span class="p">(</span><span class="n">c</span> <span class="o">*</span><span class="n">gin</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="m">200</span><span class="p">,</span> <span class="s">"hello, world!"</span><span class="p">)</span>
+  <span class="p">}</span>
+  <span class="n">r</span> <span class="o">:=</span> <span class="n">gin</span><span class="o">.</span><span class="n">Default</span><span class="p">()</span>
+  <span class="n">r</span><span class="o">.</span><span class="n">GET</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span> <span class="n">method</span><span class="p">)</span>
+  <span class="n">r</span><span class="o">.</span><span class="n">Run</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>引用了gin这个包，，还有上来就匿名函数的嘛，，，</p>
+
+<p>这里用goland的确方便一点点，但是vscode也差不到哪儿去</p>
+
+<p>主要是新建项目的时候goland可以直接选择go mod</p>
+
+<h2 id="lv5--longest-palindromic-substring">lv5 -Longest Palindromic Substring</h2>
+
+<p>也不是不能写暴力，，但是状态一般，，，</p>
+
+<p>留下wiki的链接有时间再看把，，，Manacher当时就没太搞懂</p>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Longest_palindromic_substring">Wikipedia</a> Implemented by Java and it has Pseudocode</li>
+</ul>
+
+<h2 id="concluding-remarks">Concluding Remarks</h2>
+
+<p>基本就这样吧，，吐槽归吐槽，，有作业引导的确比自学有效率</p>
+
+<p>学长答疑也很耐心，十分感谢！</p>
+
+<p>唔，，从后端开始，向全栈（full stack）进发！！</p>
+:ET
