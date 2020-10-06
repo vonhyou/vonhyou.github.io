@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-06T15:16:41+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-06T16:09:34+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
 </subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">RedRock的第一次作业</title><link href="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -265,7 +265,70 @@
 
 &lt;p&gt;500mlRIO喝的我天旋地转，，，幸亏没做太多出格的事情&lt;/p&gt;
 
-&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
+&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">Solutions for Pasting codes</title><link href="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html" rel="alternate" type="text/html" title="Solutions for Pasting codes" /><published>2020-10-05T00:00:00+08:00</published><updated>2020-10-05T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html">&lt;p&gt;这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;朴素实用的ubuntu-paste&quot;&gt;朴素实用的ubuntu paste&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/agBnEHX.png&quot; alt=&quot;效果图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在上图我贴了一份C++代码，可以看到：有高亮且支持大部分语言（Clojure这类冷门语言都支持的！），可复制还可以直接download（下载需要登陆账号）&lt;/p&gt;
+
+&lt;p&gt;除了界面比较朴素，高亮的主题、字体有年代感外，这是极其优秀的贴代码方式，比拍照、直接复制粘贴好到不知道那里去&lt;/p&gt;
+
+&lt;p&gt;而且短短一行链接，也不会再聊天室里刷屏，体验极佳！&lt;/p&gt;
+
+&lt;p&gt;你可以点击&lt;a href=&quot;https://paste.ubuntu.com/p/WNFGcBdZg6/&quot;&gt;这个链接&lt;/a&gt;查看上图的代码，体会体会qwq&lt;/p&gt;
+
+&lt;p&gt;下面我简单说明一下如何使用：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/DF43ACM.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Poster” 就是贴代码的你，可以随意填写&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Syntax” 语法，这直接关系到代码高亮能不能正常显示，所以请认真选择&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Expiration” 过期时间，None就是永远不会失效，如果有需求可以选择销毁时间&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Content” 就是你要贴的内容啦！！&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;填写完后，点击Paste！就可以把代码贴出去了&lt;/p&gt;
+
+&lt;h2 id=&quot;现代感满满的carbonnowsh&quot;&gt;现代感满满的Carbon.now.sh&lt;/h2&gt;
+
+&lt;p&gt;Ubuntu Paste知道的人太多了！如果只说它一个的话就相当于水了一篇文章&lt;/p&gt;
+
+&lt;p&gt;下面要介绍的Carbon.now.sh，也就是header page展示的那张，，，可以说非常的优雅&lt;/p&gt;
+
+&lt;p&gt;正如主页所说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Create and share beautiful images of your source code.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;使用方法也很简单，傻瓜式的方式很方便&lt;/p&gt;
+
+&lt;p&gt;亮点是可以直接发推！！而且可以输出图片&lt;/p&gt;
+
+&lt;p&gt;效果图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1mk60U0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大概能理解好多项目主页上的图片是怎么弄得了&lt;/p&gt;
+
+&lt;p&gt;不仅如此，在超多的主题之外，你还可以自定义自己的主题&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/WC8PnqT.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以说是非常方便了！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="recommand" /><category term="effective" /><summary type="html">这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
 
 &lt;p&gt;明天和同学，学长出去吃火锅，好开心~~&lt;/p&gt;
 
@@ -609,6 +672,4 @@ F_n=\frac{\phi^n - \psi^n}{\phi - \psi} = \frac{\phi^n - \psi^n}{\sqrt5}\\\\
 
 &lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="TeXt" /><category term="test" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry><entry><title type="html">Post with Header Image</title><link href="https://blog.lenva.tech/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>https://blog.lenva.tech/2018/06/01/header-image</id><content type="html" xml:base="https://blog.lenva.tech/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
-
-&lt;!--more--&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="TeXt" /><category term="test" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="TeXt" /><category term="test" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry></feed>
