@@ -10,6 +10,9 @@ moi的一般通过小站 <p align = "right"><a href = https://rain.moimo.me>:hea
 
 CANARYPWN'S NATïVE BLOG <p align = "right"><a href = https://aaaab3n.moe>:heart:aaaab3n.moe</a></p>
 
+Labelray's Blog <p align = "right"><a href = http://labelray.top>:heart:labelray.top</a></p>
+
+
 VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:gmdlvoy.blogspot.com</a></p>
 
 ムえ<p align = "right"><a href = https://blog.murez.site>:heart:blog.murez.site</a></p>
