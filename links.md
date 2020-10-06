@@ -12,6 +12,7 @@ CANARYPWN'S NATïVE BLOG <p align = "right"><a href = https://aaaab3n.moe>:heart
 
 Labelray's Blog <p align = "right"><a href = http://labelray.top>:heart:labelray.top</a></p>
 
+Kevin's Blog <p align = "right"><a href = http://blog.kevinfly.com>:heart:blog.kevinfly.com</a></p>
 
 VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:gmdlvoy.blogspot.com</a></p>
 
