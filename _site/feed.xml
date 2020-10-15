@@ -1,5 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-12T15:34:52+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
-</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">RedRock的第一次作业</title><link href="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-16T00:29:11+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
+</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">A better way to implement getMax() in Golang</title><link href="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html" rel="alternate" type="text/html" title="A better way to implement getMax() in Golang" /><published>2020-10-15T00:00:00+08:00</published><updated>2020-10-15T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html">&lt;p&gt;In previous assignment, I was asked to inplement a function which can pick the biggest number in a slice.&lt;/p&gt;
+
+&lt;p&gt;By learning on Coursera, I found a better way to do this.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;ordinary-method&quot;&gt;Ordinary Method&lt;/h2&gt;
+
+&lt;p&gt;When I started learning Programming in C++, the text book told me that the best way to pick the biggest number in an array is like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getMax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It’s simple, understandable and efficient. I cannot find a better algorithm to work as well as this (in C++).&lt;/p&gt;
+
+&lt;h2 id=&quot;the-better-way-in-golang&quot;&gt;The “Better” Way in Golang&lt;/h2&gt;
+
+&lt;p&gt;At the beginning, I wrote a same function as usual in Go like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getMax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;del&gt;(btw. Golang is really really ulgy and hard to write!)&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, I had completed the task perfectly. But I learned a new way to do the same thing elegantly. Furthermore, it uses some excellent features like ruby. Now let me show you the code.&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getMax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vals&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MINN&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vals&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flag&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;...&lt;/code&gt; is a powerful sign and widely used in Go(and very very misleading). It can unfold slices and arrays.&lt;/p&gt;
+
+&lt;p&gt;After writing this post, I suddenly felt it was nothing. I can write this function more beautiful by using another languages.&lt;/p&gt;
+
+&lt;p&gt;Starting with C++ does really restrict my mind.Every time I use languages such as ruby, I felt like dancing with tight feet. It’s bad.&lt;/p&gt;
+
+&lt;p&gt;That’s all, thank you. I felt worse.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="effective" /><summary type="html">In previous assignment, I was asked to inplement a function which can pick the biggest number in a slice. By learning on Coursera, I found a better way to do this.</summary></entry><entry><title type="html">RedRock的第一次作业</title><link href="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -662,14 +719,4 @@ F_n=\frac{\phi^n - \psi^n}{\phi - \psi} = \frac{\phi^n - \psi^n}{\sqrt5}\\\\
     &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;puts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;querySet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Y&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;N&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="test" /><summary type="html">Welcome to Klein Log, a normal website. 歡迎來到一個普通的網站：克萊因記錄</summary></entry><entry><title type="html">Welcome</title><link href="https://blog.lenva.tech/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00+08:00</published><updated>2018-07-01T00:00:00+08:00</updated><id>https://blog.lenva.tech/2018/07/01/welcome</id><content type="html" xml:base="https://blog.lenva.tech/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
-
-&lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me email&lt;/a&gt; if you have any questions.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="TeXt" /><category term="test" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="test" /><summary type="html">Welcome to Klein Log, a normal website. 歡迎來到一個普通的網站：克萊因記錄</summary></entry></feed>
