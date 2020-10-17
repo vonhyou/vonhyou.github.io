@@ -3,7 +3,7 @@ title: A better way to implement getMax() in Golang
 tags:  [go, effective]
 ---
 
-In previous assignment, I was asked to inplement a function which can pick the biggest number in a slice.
+In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.
 
 By learning on Coursera, I found a better way to do this.
 

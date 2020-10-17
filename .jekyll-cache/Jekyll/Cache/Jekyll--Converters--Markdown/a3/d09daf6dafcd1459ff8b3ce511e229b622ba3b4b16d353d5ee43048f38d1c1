@@ -1,0 +1,29 @@
+I"�<blockquote>
+  <p>很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。</p>
+</blockquote>
+
+<!--more-->
+
+<p>When it comes to keyword <code class="language-plaintext highlighter-rouge">defer</code> in go, I felt confused.</p>
+
+<p>The teacher showed a piece of code:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">i</span> <span class="o">:=</span> <span class="m">1</span>
+  <span class="k">defer</span> <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="m">1</span><span class="p">)</span>
+
+  <span class="n">i</span><span class="o">++</span>
+  <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"hello, world!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I thought that it must print <code class="language-plaintext highlighter-rouge">"hello, world!"</code> and <code class="language-plaintext highlighter-rouge">3</code> at first. But after typing and runing, I was totally shocked —— It’s output is <code class="language-plaintext highlighter-rouge">"hello, world"</code> and <code class="language-plaintext highlighter-rouge">2</code>!</p>
+
+<p>What actually gets printed as a two,
+because that i +1 is evaluated right there when the first statement,
+when it hits the differed statement,
+the i +1 is evaluated and at that time,
+i is a one, so i +1 is a two.
+So, later when the differed statement actually gets
+executed it’s still prints a two.</p>
+:ET
