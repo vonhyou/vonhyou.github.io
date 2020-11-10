@@ -73,7 +73,7 @@ mathjax_autoNumber: # false (default), true
 mermaid: # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -119,8 +119,8 @@ comments:
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
   valine:
-    app_id      : "Q2IsG6f3an1mBxN7460BI7if-gzGzoHsz" # LeanCloud App id
-    app_key     : "S5PfJMIWL6wROeqLgtFObmeS" # LeanCloud App key
+    app_id      :  # LeanCloud App id
+    app_key     :  # LeanCloud App key
     placeholder : "ヾﾉ≧∀≦)o來玩啊qwq" # Prompt information
     visitor     : true # false (default)
     meta        : "[nick, mail, link]" # (default) nickname, E-mail, Personal-site

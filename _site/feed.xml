@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-17T22:06:07+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
-</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">Defer in Go</title><link href="https://blog.lenva.tech/2020/10/17/defer-in-go.html" rel="alternate" type="text/html" title="Defer in Go" /><published>2020-10-17T00:00:00+08:00</published><updated>2020-10-17T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/17/defer-in-go</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/17/defer-in-go.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-11-10T19:40:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
+</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">New Equipment, New Start</title><link href="http://localhost:4000/2020/11/10/New-Equipment,-New-Start.html" rel="alternate" type="text/html" title="New Equipment, New Start" /><published>2020-11-10T00:00:00+08:00</published><updated>2020-11-10T00:00:00+08:00</updated><id>http://localhost:4000/2020/11/10/New-Equipment,-New-Start</id><content type="html" xml:base="http://localhost:4000/2020/11/10/New-Equipment,-New-Start.html">&lt;p&gt;Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/6XuTaiE.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love this kind of machine: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;productive&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elegant&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long battery life&lt;/code&gt; and most importantly—— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;portable&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This days I tried developing C++, Ruby and Swift on it, and it’s the best experience I have ever had.&lt;/p&gt;
+
+&lt;p&gt;After that, I calmed down, and planned to do something new on it—— a grand plan—— so big that I cannot describe it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-meaning-of-this-site&quot;&gt;The Meaning of This Site&lt;/h2&gt;
+
+&lt;p&gt;This site—— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Klein log&lt;/code&gt;, it’s a place more to share my feelings than experiences. It will be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Emotional&lt;/code&gt;, not &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Rational&lt;/code&gt;.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="daily" /><summary type="html">Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.</summary></entry><entry><title type="html">Defer in Go</title><link href="http://localhost:4000/2020/10/17/defer-in-go.html" rel="alternate" type="text/html" title="Defer in Go" /><published>2020-10-17T00:00:00+08:00</published><updated>2020-10-17T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/17/defer-in-go</id><content type="html" xml:base="http://localhost:4000/2020/10/17/defer-in-go.html">&lt;blockquote&gt;
   &lt;p&gt;很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -26,7 +40,7 @@ when it hits the differed statement,
 the i +1 is evaluated and at that time,
 i is a one, so i +1 is a two.
 So, later when the differed statement actually gets
-executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="feature" /><summary type="html">很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。</summary></entry><entry><title type="html">A better way to implement getMax() in Golang</title><link href="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html" rel="alternate" type="text/html" title="A better way to implement getMax() in Golang" /><published>2020-10-15T00:00:00+08:00</published><updated>2020-10-15T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html">&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
+executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="feature" /><summary type="html">很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。</summary></entry><entry><title type="html">A better way to implement getMax() in Golang</title><link href="http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html" rel="alternate" type="text/html" title="A better way to implement getMax() in Golang" /><published>2020-10-15T00:00:00+08:00</published><updated>2020-10-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang</id><content type="html" xml:base="http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html">&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
 
 &lt;p&gt;By learning on Coursera, I found a better way to do this.&lt;/p&gt;
 
@@ -83,7 +97,13 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;Starting with C++ does really restrict my mind.Every time I use languages such as ruby, I felt like dancing with tight feet. It’s bad.&lt;/p&gt;
 
-&lt;p&gt;That’s all, thank you. I felt worse.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="effective" /><summary type="html">In previous assignment, I was asked to implement a function which can pick the biggest number in a slice. By learning on Coursera, I found a better way to do this.</summary></entry><entry><title type="html">RedRock的第一次作业</title><link href="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
+&lt;p&gt;That’s all, thank you. I felt worse.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="effective" /><summary type="html">In previous assignment, I was asked to implement a function which can pick the biggest number in a slice. By learning on Coursera, I found a better way to do this.</summary></entry><entry><title type="html">艹艹艹，，，我以后再也不喝酒了</title><link href="http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html" rel="alternate" type="text/html" title="艹艹艹，，，我以后再也不喝酒了" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9,,,%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86</id><content type="html" xml:base="http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html">&lt;p&gt;rt，就是昨晚，，，艹&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;500mlRIO喝的我天旋地转，，，幸亏没做太多出格的事情&lt;/p&gt;
+
+&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">RedRock的第一次作业</title><link href="http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -343,13 +363,7 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;学长答疑也很耐心，十分感谢！&lt;/p&gt;
 
-&lt;p&gt;唔，，从后端开始，向全栈（full stack）进发！！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="redrock" /><summary type="html">算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</summary></entry><entry><title type="html">艹艹艹，，，我以后再也不喝酒了</title><link href="https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html" rel="alternate" type="text/html" title="艹艹艹，，，我以后再也不喝酒了" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9,,,%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html">&lt;p&gt;rt，就是昨晚，，，艹&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;500mlRIO喝的我天旋地转，，，幸亏没做太多出格的事情&lt;/p&gt;
-
-&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">Solutions for Pasting codes</title><link href="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html" rel="alternate" type="text/html" title="Solutions for Pasting codes" /><published>2020-10-05T00:00:00+08:00</published><updated>2020-10-05T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html">&lt;p&gt;这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法&lt;/p&gt;
+&lt;p&gt;唔，，从后端开始，向全栈（full stack）进发！！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="redrock" /><summary type="html">算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</summary></entry><entry><title type="html">Solutions for Pasting codes</title><link href="http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html" rel="alternate" type="text/html" title="Solutions for Pasting codes" /><published>2020-10-05T00:00:00+08:00</published><updated>2020-10-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes</id><content type="html" xml:base="http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html">&lt;p&gt;这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -412,11 +426,11 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/WC8PnqT.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;可以说是非常方便了！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="recommand" /><category term="effective" /><summary type="html">这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
+&lt;p&gt;可以说是非常方便了！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="recommand" /><category term="effective" /><summary type="html">这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
 
 &lt;p&gt;明天和同学，学长出去吃火锅，好开心~~&lt;/p&gt;
 
-&lt;p&gt;会很有意思吧，，早睡了嗷&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">就是标题的意思qwq 明天和同学，学长出去吃火锅，好开心~~ 会很有意思吧，，早睡了嗷</summary></entry><entry><title type="html">今晚，谈谈我的过去、现在以及未来(p1)</title><link href="https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html" rel="alternate" type="text/html" title="今晚，谈谈我的过去、现在以及未来(p1)" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A,%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB%E3%80%81%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html">&lt;p&gt;这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义&lt;/p&gt;
+&lt;p&gt;会很有意思吧，，早睡了嗷&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">就是标题的意思qwq 明天和同学，学长出去吃火锅，好开心~~ 会很有意思吧，，早睡了嗷</summary></entry><entry><title type="html">今晚，谈谈我的过去、现在以及未来(p1)</title><link href="http://localhost:4000/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html" rel="alternate" type="text/html" title="今晚，谈谈我的过去、现在以及未来(p1)" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/02/%E4%BB%8A%E6%99%9A,%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB%E3%80%81%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5</id><content type="html" xml:base="http://localhost:4000/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html">&lt;p&gt;这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义&lt;/p&gt;
 
 &lt;p&gt;但如果仔细去梳理，你/我/TA可能会更加了解这个个体，当然这件事情对于除了本体的那个人而言，毫无意义qwq&lt;/p&gt;
 
@@ -563,7 +577,7 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;(&lt;strong&gt;Timestamp&lt;/strong&gt; 2020-10-02 23:27)&lt;/p&gt;
 
-&lt;p&gt;今天就写到这里吧,混蛋&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义 但如果仔细去梳理，你/我/TA可能会更加了解这个个体，当然这件事情对于除了本体的那个人而言，毫无意义qwq</summary></entry><entry><title type="html">黄河站与北洋政府</title><link href="https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html" rel="alternate" type="text/html" title="黄河站与北洋政府" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html">&lt;p&gt;2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。
+&lt;p&gt;今天就写到这里吧,混蛋&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义 但如果仔细去梳理，你/我/TA可能会更加了解这个个体，当然这件事情对于除了本体的那个人而言，毫无意义qwq</summary></entry><entry><title type="html">黄河站与北洋政府</title><link href="http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html" rel="alternate" type="text/html" title="黄河站与北洋政府" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C</id><content type="html" xml:base="http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html">&lt;p&gt;2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。
 在维基百科词条&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%9E%81%E9%BB%84%E6%B2%B3%E7%AB%99&quot;&gt;中国北极黄河站&lt;/a&gt;里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。&lt;/p&gt;
 
 &lt;p&gt;但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。&lt;/p&gt;
@@ -588,7 +602,7 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;Wiki-&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%9E%81%E9%BB%84%E6%B2%B3%E7%AB%99&quot;&gt;中国北极黄河站&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/maps/place/78%C2%B055'00.0%22N+11%C2%B056'00.0%22E/@78.8867711,11.7186908,9.75z/data=!4m2!3m1!1s0x0:0x0?hl=zh-CN&quot;&gt;Google地图&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="历史" /><summary type="html">2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。 在维基百科词条中国北极黄河站里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。 但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。</summary></entry><entry><title type="html">WSL下Rust的安裝</title><link href="https://blog.lenva.tech/2020/09/03/installRust.html" rel="alternate" type="text/html" title="WSL下Rust的安裝" /><published>2020-09-03T00:00:00+08:00</published><updated>2020-09-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/09/03/installRust</id><content type="html" xml:base="https://blog.lenva.tech/2020/09/03/installRust.html">&lt;p&gt;WSL下安裝Rust有一點小坑，本文記錄一下&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/maps/place/78%C2%B055'00.0%22N+11%C2%B056'00.0%22E/@78.8867711,11.7186908,9.75z/data=!4m2!3m1!1s0x0:0x0?hl=zh-CN&quot;&gt;Google地图&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="历史" /><summary type="html">2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。 在维基百科词条中国北极黄河站里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。 但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。</summary></entry><entry><title type="html">WSL下Rust的安裝</title><link href="http://localhost:4000/2020/09/03/installRust.html" rel="alternate" type="text/html" title="WSL下Rust的安裝" /><published>2020-09-03T00:00:00+08:00</published><updated>2020-09-03T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/03/installRust</id><content type="html" xml:base="http://localhost:4000/2020/09/03/installRust.html">&lt;p&gt;WSL下安裝Rust有一點小坑，本文記錄一下&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -626,48 +640,4 @@ rustup default stable
 
 &lt;p&gt;然後運行rustup問題迎刃而解，，，&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/9uDuNnG.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="rust" /><summary type="html">WSL下安裝Rust有一點小坑，本文記錄一下</summary></entry><entry><title type="html">過期薯條同學的Ruby再入門</title><link href="https://blog.lenva.tech/2020/08/31/Ruby%E5%86%8D%E5%85%A5%E9%96%80.html" rel="alternate" type="text/html" title="過期薯條同學的Ruby再入門" /><published>2020-08-31T00:00:00+08:00</published><updated>2020-08-31T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/08/31/Ruby%E5%86%8D%E5%85%A5%E9%96%80</id><content type="html" xml:base="https://blog.lenva.tech/2020/08/31/Ruby%E5%86%8D%E5%85%A5%E9%96%80.html">&lt;p&gt;通過通關&lt;a href=&quot;http://rubykoans.com/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby koans&lt;/code&gt;&lt;/a&gt;等實現ruby-lang的再入門&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;關於ruby-koans&quot;&gt;關於Ruby Koans&lt;/h2&gt;
-
-&lt;p&gt;在我剛開始學Ruby的時候就聽說過該項目，但苦於學業繁忙，一直沒機會嘗試。&lt;/p&gt;
-
-&lt;p&gt;我認爲該項目十分適合有一定編程基礎的人瞭解Ruby，入門Ruby&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Koans walk you along the path to enlightenment in order to learn Ruby. &lt;strong&gt;The goal is to learn the Ruby language, syntax, structure, and some common functions and libraries. &lt;em&gt;We also teach you culture.&lt;/em&gt;&lt;/strong&gt; Testing is not just something we pay lip service to, but something we live. It is essential in your quest to learn and do great things in the language.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;通過koans的281關以及註釋中貼心的小問題，初學者可以在探索中逐步學習ruby，同時避免的紙上談兵。這是任何教材都很難達到的。&lt;/p&gt;
-
-&lt;p&gt;在此我強烈建議在通過常規方式（書籍，視頻等）學習的同時，通過&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby koans&lt;/code&gt;來加深對她的理解。&lt;/p&gt;
-
-&lt;p&gt;項目官網：&lt;a href=&quot;http://rubykoans.com/&quot;&gt;rubykoans.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;學習建議：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;能較爲熟練的使用命令行——尤其是使用ruby的交互式shell &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;使用合適的文本編輯器——官方給出了幾個例子，這裏我推薦vscode&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1DR0tCi.png&quot; alt=&quot;screenshot of my vscode&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;有一定的編程基礎，不然你很可能會無從下手qwq&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;在項目根目錄運行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ ruby path_to_enlightenment.rb&lt;/code&gt;，然後 Feel free to learn!&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;ps: 我在闖關過程中加了一些筆記，本來是用英語寫的，但是考慮到可能和項目本身的註釋搞混，就用了中文。好處是比較明顯&lt;/p&gt;
-
-&lt;p&gt;然而所謂“筆記”最後演變成了吐槽….（捂臉&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="ruby" /><summary type="html">通過通關ruby koans等實現ruby-lang的再入門</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/9uDuNnG.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="rust" /><summary type="html">WSL下安裝Rust有一點小坑，本文記錄一下</summary></entry></feed>
