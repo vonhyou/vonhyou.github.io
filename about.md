@@ -50,7 +50,7 @@ Email：vonhyou@lenva.tech （不能保證及時回覆）
 <p align = "right">過期薯條同學</p>
 <p align = "right">2020年8月24日 星期一 20:06</p>
 
-## [New] 薯条的成绩！
+## [New] 薯条的成绩😭
 
 ```chart
 {

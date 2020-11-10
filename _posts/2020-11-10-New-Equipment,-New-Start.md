@@ -21,6 +21,6 @@ This site—— `Klein log`, it's a place more to share my feelings than experie
 
 In order to do that, I added a new function:
 
-![]()
+[![](https://i.imgur.com/z3LAaqE.png)](https://blog.lenva.tech/about.html#new-薯条的成绩)
 
 It's a intuitive way to track my scores—— mostly Calculus.
