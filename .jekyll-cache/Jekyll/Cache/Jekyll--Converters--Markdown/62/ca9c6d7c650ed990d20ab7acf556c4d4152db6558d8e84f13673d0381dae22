@@ -1,10 +1,10 @@
-I"�<p>你好，這是一隻普通的過期薯條同學，是CQUPT一年級在讀生</p>
+I"�<p>你好，這是一隻普通的過期薯條同學，是CQUPT一年級在讀生</p>
 
 <p>到目前爲止碌碌無爲，學習成績差，編程能力弱，妥妥的新鮮蔬菜，但有在學習</p>
 
 <p>說不出討厭什麼，也不知道喜歡什麼，不抵觸新鮮事物</p>
 
-<p>會中文，英語入門，不會日語</p>
+<p>會中文，英語初级，德语入门，不會日語</p>
 
 <p>平時可能會女裝，已經向<a href="https://github.com/komeiji-satori/Dress">Dress</a>項目提交過pr，黑歷史封存成功qwq</p>
 
@@ -22,6 +22,36 @@
 
 <p align="right">過期薯條同學</p>
 <p align="right">2020年8月24日 星期一 20:06</p>
+
+<h2 id="new-薯条的成绩">[New] 薯条的成绩！</h2>
+
+<pre><code class="language-chart">{
+  "type": "line",
+  "data": {
+    "datasets": [
+      {
+        "data": [
+          99,
+          98,
+          85,
+          0
+        ],
+        "borderColor": "rgba(255, 149, 0, 0.7)",
+        "backgroundColor": "rgba(255, 149, 0, 0.1)",
+        "pointBackgroundColor": "rgba(255, 149, 0)",
+        "label": "My Calculus Score"
+      }
+    ],
+    "labels": [
+      "Unit 1",
+      "Unit 2",
+      "Unit 3",
+      "Midterm"
+    ]
+  },
+  "options": {}
+}
+</code></pre>
 
 <h2 id="關於友鏈-links">關於友鏈 Links</h2>
 

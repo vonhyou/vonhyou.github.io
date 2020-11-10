@@ -31,7 +31,7 @@ key: page-about
 
 說不出討厭什麼，也不知道喜歡什麼，不抵觸新鮮事物
 
-會中文，英語入門，不會日語
+會中文，英語初级，德语入门，不會日語
 
 平時可能會女裝，已經向[Dress](https://github.com/komeiji-satori/Dress)項目提交過pr，黑歷史封存成功qwq
 
@@ -50,7 +50,36 @@ Email：vonhyou@lenva.tech （不能保證及時回覆）
 <p align = "right">過期薯條同學</p>
 <p align = "right">2020年8月24日 星期一 20:06</p>
 
+## [New] 薯条的成绩！
 
+```chart
+{
+  "type": "line",
+  "data": {
+    "datasets": [
+      {
+        "data": [
+          99,
+          98,
+          85,
+          0
+        ],
+        "borderColor": "rgba(255, 149, 0, 0.7)",
+        "backgroundColor": "rgba(255, 149, 0, 0.1)",
+        "pointBackgroundColor": "rgba(255, 149, 0)",
+        "label": "My Calculus Score"
+      }
+    ],
+    "labels": [
+      "Unit 1",
+      "Unit 2",
+      "Unit 3",
+      "Midterm"
+    ]
+  },
+  "options": {}
+}
+```
 
 ## 關於友鏈 Links
 
