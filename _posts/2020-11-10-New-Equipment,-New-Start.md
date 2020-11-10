@@ -19,3 +19,8 @@ After that, I calmed down, and planned to do something new on it—— a grand p
 
 This site—— `Klein log`, it's a place more to share my feelings than experiences. It will be `Emotional`, not `Rational`.
 
+In order to do that, I added a new function:
+
+![]()
+
+It's a intuitive way to track my scores—— mostly Calculus.
