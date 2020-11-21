@@ -62,6 +62,7 @@ Email：vonhyou@lenva.tech （不能保證及時回覆）
           99,
           98,
           85,
+          82,
           0
         ],
         "borderColor": "rgba(255, 149, 0, 0.7)",
@@ -74,6 +75,7 @@ Email：vonhyou@lenva.tech （不能保證及時回覆）
       "Unit 1",
       "Unit 2",
       "Unit 3",
+      "Midterm Preview",
       "Midterm"
     ]
   },
