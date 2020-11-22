@@ -34,3 +34,5 @@ VOY青年之声<p align = "right"><a href = https://gmdlvoy.blogspot.com>:heart:
 Oliver's Blog<p align = "right"><a href = https://manito.fun>:heart:manito.fun</a></p>
 
 辇道增七的小站<p align = "right"><a href = http://wuhaoda.life>:heart:wuhaoda.life</a></p>
+
+Phenol的个人博客<p align = "right"><a href = https://phenol-phthalein.info>:heart:phenol-phthalein.info</a></p>
