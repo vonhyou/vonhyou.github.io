@@ -1,5 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-11-22T23:05:41+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
-</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">New Equipment, New Start</title><link href="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html" rel="alternate" type="text/html" title="New Equipment, New Start" /><published>2020-11-10T00:00:00+08:00</published><updated>2020-11-10T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start</id><content type="html" xml:base="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html">&lt;p&gt;Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-11-25T21:00:25+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
+</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">expChips’ Tour of Swift // 1</title><link href="https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift.html" rel="alternate" type="text/html" title="expChips’ Tour of Swift // 1" /><published>2020-11-25T00:00:00+08:00</published><updated>2020-11-25T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift</id><content type="html" xml:base="https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift.html">&lt;p&gt;These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Swift&lt;/code&gt;. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;print&quot;&gt;print()&lt;/h2&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c1&quot;&gt;// hello_world.swift&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello, world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The code above will print &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;hello, world!\n&quot;&lt;/code&gt;, and it’s a &lt;strong&gt;complete&lt;/strong&gt; program. I can run it in command line by tapping &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;swift hello_world.swift&lt;/code&gt;. It’s obviously that this language has some feature of script language.&lt;/p&gt;
+
+&lt;p&gt;We can add a parameter to change the last character of the string, and by doing this, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; will not wrap:&lt;/p&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c1&quot;&gt;// hello_world_unwrap.swift&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello, world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;terminator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And another parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;separator:&lt;/code&gt; is also important. You can use it like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;terminator:&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;Swift’s comments are C++ like. For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// luv 🍟&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* luv 📦*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It’s no need to explain more.&lt;/p&gt;
+
+&lt;h2 id=&quot;values-variables-and-constants&quot;&gt;values, variables, and constants&lt;/h2&gt;
+
+&lt;p&gt;Swift uses different keywords.&lt;/p&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Darwin&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// use acos()&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;acos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Double&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/NLYkntC.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;btw. You can interctive with swift like ruby, just tap &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;swift&lt;/code&gt; and enter.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You can provide a type annotation when you declare a constant or variable, to be clear about the kind of values the constant or variable can store.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you provide an initial value for a constant or variable at the point that it’s defined, Swift can almost always infer the type to be used for that constant or variable.&lt;/p&gt;
+
+&lt;h3 id=&quot;int&quot;&gt;Int&lt;/h3&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// 9223372036854775807&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Int32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 2147483647&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;// 18446744073709551615&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Digitals can be separated by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2_333_444_555&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 2333444555&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="swift" /><summary type="html">These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——Swift. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.</summary></entry><entry><title type="html">New Equipment, New Start</title><link href="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html" rel="alternate" type="text/html" title="New Equipment, New Start" /><published>2020-11-10T00:00:00+08:00</published><updated>2020-11-10T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start</id><content type="html" xml:base="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html">&lt;p&gt;Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -608,42 +668,4 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;Wiki-&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%9E%81%E9%BB%84%E6%B2%B3%E7%AB%99&quot;&gt;中国北极黄河站&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/maps/place/78%C2%B055'00.0%22N+11%C2%B056'00.0%22E/@78.8867711,11.7186908,9.75z/data=!4m2!3m1!1s0x0:0x0?hl=zh-CN&quot;&gt;Google地图&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="历史" /><summary type="html">2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。 在维基百科词条中国北极黄河站里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。 但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。</summary></entry><entry><title type="html">WSL下Rust的安裝</title><link href="https://blog.lenva.tech/2020/09/03/installRust.html" rel="alternate" type="text/html" title="WSL下Rust的安裝" /><published>2020-09-03T00:00:00+08:00</published><updated>2020-09-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/09/03/installRust</id><content type="html" xml:base="https://blog.lenva.tech/2020/09/03/installRust.html">&lt;p&gt;WSL下安裝Rust有一點小坑，本文記錄一下&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;安裝rust&quot;&gt;安裝Rust&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;--proto&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'=https'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--tlsv1&lt;/span&gt;.2 &lt;span class=&quot;nt&quot;&gt;-sSf&lt;/span&gt; https://sh.rustup.rs | sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;基本上到這一步，安裝就已經完成了，但是我在新建項目的時候出了點小問題：&lt;/p&gt;
-
-&lt;h2 id=&quot;解決錯誤-error-no-default-toolchain-configured&quot;&gt;解決錯誤 &lt;strong&gt;error: no default toolchain configured&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustup &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;stable
-rustup default stable
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;到這裏，新建項目應該就沒問題了。&lt;/p&gt;
-
-&lt;p&gt;但是我還遇到一個小問題，，很討厭的小問題，，，&lt;/p&gt;
-
-&lt;h2 id=&quot;解決錯誤-thread-main-panicked-at-assertion-failed-left--right&quot;&gt;解決錯誤 &lt;strong&gt;thread ‘main’ panicked at ‘assertion failed: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(left == right)&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;唔，，，爲了解決這個問題花了我不少時間，，&lt;/p&gt;
-
-&lt;p&gt;問題是WSLv1造成的，也就是說最簡單的解決方案是升級WSL到WSL2&lt;/p&gt;
-
-&lt;p&gt;跟着微軟的&lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2&quot;&gt;官方文檔&lt;/a&gt;可以很快解決&lt;/p&gt;
-
-&lt;p&gt;但是人算不如天算，，我的windows 10死活沒法升級到2004，也就沒辦法安裝wsl2，這裏github上的一個&lt;a href=&quot;https://github.com/rust-lang/rustup/issues/2245&quot;&gt;issue&lt;/a&gt;給出了另外兩個解決方案：一個是使用舊版本的linux——這個更麻煩，，另一個成功的解決了我的問題：&lt;/p&gt;
-
-&lt;p&gt;在bashrc（或者zshrc）裏加入：&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;RUSTUP_IO_THREADS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;然後運行rustup問題迎刃而解，，，&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/9uDuNnG.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="rust" /><summary type="html">WSL下安裝Rust有一點小坑，本文記錄一下</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/maps/place/78%C2%B055'00.0%22N+11%C2%B056'00.0%22E/@78.8867711,11.7186908,9.75z/data=!4m2!3m1!1s0x0:0x0?hl=zh-CN&quot;&gt;Google地图&lt;/a&gt;&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="历史" /><summary type="html">2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。 在维基百科词条中国北极黄河站里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。 但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。</summary></entry></feed>
