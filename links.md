@@ -38,3 +38,5 @@ Oliver's Blog<p align = "right"><a href = https://manito.fun>:heart:manito.fun</
 Broca的个人博客<p align = "right"><a href = https://phenol-phthalein.info>:heart:phenol-phthalein.info</a></p>
 
 ZHANGWP's Blog<p align = "right"><a href = https://www.zhangwp.com>:heart:www.zhangwp.com</a></p>
+
+巽星莊<p align = "right"><a href = https://shviolet.tk>:heart:shviolet.tk</a></p>
