@@ -1,5 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.lenva.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.lenva.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-12T22:30:08+08:00</updated><id>https://blog.lenva.tech/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
-</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">expChips’ Tour of Swift // 1</title><link href="https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift.html" rel="alternate" type="text/html" title="expChips’ Tour of Swift // 1" /><published>2020-11-25T00:00:00+08:00</published><updated>2020-11-25T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift</id><content type="html" xml:base="https://blog.lenva.tech/2020/11/25/expChips'-Tour-of-Swift.html">&lt;p&gt;These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Swift&lt;/code&gt;. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-15T20:50:45+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Klein Log</title><subtitle>Chaotic Everything of Mine! 
+</subtitle><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><entry><title type="html">Lektion 1: Begrüßungen</title><link href="http://localhost:4000/2020/12/11/Lektion-1-Begr%C3%BC%C3%9Fungen.html" rel="alternate" type="text/html" title="Lektion 1: Begrüßungen" /><published>2020-12-11T00:00:00+08:00</published><updated>2020-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/11/Lektion-1:-Begr%C3%BC%C3%9Fungen</id><content type="html" xml:base="http://localhost:4000/2020/12/11/Lektion-1-Begr%C3%BC%C3%9Fungen.html">&lt;p&gt;It’s a bundle of Germany learning notes. The date is not accurate because it’s usage is to make the correct order of them.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lesson 1: Greesings&lt;/em&gt;, let’s begin!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h1 id=&quot;lektion-1&quot;&gt;Lektion 1&lt;/h1&gt;
+
+&lt;p&gt;Begrüßungen (greetings)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hallo –Hello&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Guten Tag –Good day&lt;/p&gt;
+
+    &lt;p&gt;Can be used in any time of the day, formal&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Guten Morgen –Good morning&lt;/li&gt;
+      &lt;li&gt;Guten Abend –Good evening&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Gute&lt;/strong&gt; Nacht –Good Night&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tschüss –Bye&lt;/p&gt;
+
+    &lt;p&gt;Tschüs, tschüs, Tschüss and tschüss are all correct, and the preferred spelling depends on the person/the region you are in.&lt;/p&gt;
+
+    &lt;p&gt;https://www.duden.de/rechtschreibung/tschues&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Ciao –Bye&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Auf Wiedersehen! –See you again&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Auf Wiederhören! –Bye (on telephone)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bis bald –See you soon&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Bis später –See you later&lt;/li&gt;
+      &lt;li&gt;Bis dann –See you whenever we meet again/ See you then&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bavaria-and-austria&quot;&gt;Bavaria and Austria&lt;/h3&gt;
+
+&lt;p&gt;Bavaria is the biggest state in Germany&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grüß Gott –Hello&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grüß Sie/ Grüß dich –Hello&lt;/p&gt;
+
+    &lt;p&gt;Casual greeting, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sie&lt;/code&gt; for formal situation, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dich&lt;/code&gt; for informal situation&lt;/p&gt;
+
+    &lt;p&gt;Only in singular form, not suitable for group of people&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;switzerland-and-southern-germany&quot;&gt;Switzerland and Southern Germany&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Servus –Hello/Bye&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="Deutsch" /><summary type="html">It’s a bundle of Germany learning notes. The date is not accurate because it’s usage is to make the correct order of them. Lesson 1: Greesings, let’s begin!</summary></entry><entry><title type="html">expChips’ Tour of Swift // 1</title><link href="http://localhost:4000/2020/11/25/expChips'-Tour-of-Swift.html" rel="alternate" type="text/html" title="expChips’ Tour of Swift // 1" /><published>2020-11-25T00:00:00+08:00</published><updated>2020-11-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/11/25/expChips'-Tour-of-Swift</id><content type="html" xml:base="http://localhost:4000/2020/11/25/expChips'-Tour-of-Swift.html">&lt;p&gt;These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Swift&lt;/code&gt;. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -59,7 +133,7 @@
 &lt;p&gt;Digitals can be separated by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2_333_444_555&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 2333444555&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="swift" /><summary type="html">These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——Swift. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.</summary></entry><entry><title type="html">New Equipment, New Start</title><link href="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html" rel="alternate" type="text/html" title="New Equipment, New Start" /><published>2020-11-10T00:00:00+08:00</published><updated>2020-11-10T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start</id><content type="html" xml:base="https://blog.lenva.tech/2020/11/10/New-Equipment,-New-Start.html">&lt;p&gt;Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="swift" /><summary type="html">These days, I accepted some easy problems on leetcode, in order to get familiar to a new programming language——Swift. In this series, I will write down basic syntax and come useful skills. Mostly, it’s my personal online note.</summary></entry><entry><title type="html">New Equipment, New Start</title><link href="http://localhost:4000/2020/11/10/New-Equipment,-New-Start.html" rel="alternate" type="text/html" title="New Equipment, New Start" /><published>2020-11-10T00:00:00+08:00</published><updated>2020-11-10T00:00:00+08:00</updated><id>http://localhost:4000/2020/11/10/New-Equipment,-New-Start</id><content type="html" xml:base="http://localhost:4000/2020/11/10/New-Equipment,-New-Start.html">&lt;p&gt;Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -79,7 +153,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://blog.lenva.tech/about.html#new-薯条的成绩&quot;&gt;&lt;img src=&quot;https://i.imgur.com/z3LAaqE.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;It’s a intuitive way to track my scores—— mostly Calculus.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="daily" /><summary type="html">Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.</summary></entry><entry><title type="html">Defer in Go</title><link href="https://blog.lenva.tech/2020/10/17/defer-in-go.html" rel="alternate" type="text/html" title="Defer in Go" /><published>2020-10-17T00:00:00+08:00</published><updated>2020-10-17T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/17/defer-in-go</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/17/defer-in-go.html">&lt;blockquote&gt;
+&lt;p&gt;It’s a intuitive way to track my scores—— mostly Calculus.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="daily" /><summary type="html">Recently, I sold my ASUS Gaming laptop and bought a MacBook Air2020—— An exciting new device.</summary></entry><entry><title type="html">Defer in Go</title><link href="http://localhost:4000/2020/10/17/defer-in-go.html" rel="alternate" type="text/html" title="Defer in Go" /><published>2020-10-17T00:00:00+08:00</published><updated>2020-10-17T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/17/defer-in-go</id><content type="html" xml:base="http://localhost:4000/2020/10/17/defer-in-go.html">&lt;blockquote&gt;
   &lt;p&gt;很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -106,7 +180,7 @@ when it hits the differed statement,
 the i +1 is evaluated and at that time,
 i is a one, so i +1 is a two.
 So, later when the differed statement actually gets
-executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="feature" /><summary type="html">很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。</summary></entry><entry><title type="html">A better way to implement getMax() in Golang</title><link href="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html" rel="alternate" type="text/html" title="A better way to implement getMax() in Golang" /><published>2020-10-15T00:00:00+08:00</published><updated>2020-10-15T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html">&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
+executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="feature" /><summary type="html">很多现代的编程语言中都有 defer 关键字，Go 语言的 defer 会在当前函数或者方法返回之前执行传入的函数。它会经常被用于关闭文件描述符、关闭数据库连接以及解锁资源。</summary></entry><entry><title type="html">A better way to implement getMax() in Golang</title><link href="http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html" rel="alternate" type="text/html" title="A better way to implement getMax() in Golang" /><published>2020-10-15T00:00:00+08:00</published><updated>2020-10-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang</id><content type="html" xml:base="http://localhost:4000/2020/10/15/A-better-way-to-implement-getMax()-in-Golang.html">&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
 
 &lt;p&gt;By learning on Coursera, I found a better way to do this.&lt;/p&gt;
 
@@ -163,13 +237,13 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;Starting with C++ does really restrict my mind.Every time I use languages such as ruby, I felt like dancing with tight feet. It’s bad.&lt;/p&gt;
 
-&lt;p&gt;That’s all, thank you. I felt worse.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="effective" /><summary type="html">In previous assignment, I was asked to implement a function which can pick the biggest number in a slice. By learning on Coursera, I found a better way to do this.</summary></entry><entry><title type="html">艹艹艹，，，我以后再也不喝酒了</title><link href="https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html" rel="alternate" type="text/html" title="艹艹艹，，，我以后再也不喝酒了" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9,,,%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html">&lt;p&gt;rt，就是昨晚，，，艹&lt;/p&gt;
+&lt;p&gt;That’s all, thank you. I felt worse.&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="effective" /><summary type="html">In previous assignment, I was asked to implement a function which can pick the biggest number in a slice. By learning on Coursera, I found a better way to do this.</summary></entry><entry><title type="html">艹艹艹，，，我以后再也不喝酒了</title><link href="http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html" rel="alternate" type="text/html" title="艹艹艹，，，我以后再也不喝酒了" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9,,,%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86</id><content type="html" xml:base="http://localhost:4000/2020/10/06/%E8%89%B9%E8%89%B9%E8%89%B9-%E6%88%91%E4%BB%A5%E5%90%8E%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%BA%86.html">&lt;p&gt;rt，就是昨晚，，，艹&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;p&gt;500mlRIO喝的我天旋地转，，，幸亏没做太多出格的事情&lt;/p&gt;
 
-&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">RedRock的第一次作业</title><link href="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
+&lt;p&gt;认清楚自己的酒量了&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">rt，就是昨晚，，，艹</summary></entry><entry><title type="html">RedRock的第一次作业</title><link href="http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html" rel="alternate" type="text/html" title="RedRock的第一次作业" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A</id><content type="html" xml:base="http://localhost:4000/2020/10/06/RedRock%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.html">&lt;p&gt;算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -429,7 +503,7 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;学长答疑也很耐心，十分感谢！&lt;/p&gt;
 
-&lt;p&gt;唔，，从后端开始，向全栈（full stack）进发！！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="redrock" /><summary type="html">算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</summary></entry><entry><title type="html">Solutions for Pasting codes</title><link href="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html" rel="alternate" type="text/html" title="Solutions for Pasting codes" /><published>2020-10-05T00:00:00+08:00</published><updated>2020-10-05T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html">&lt;p&gt;这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法&lt;/p&gt;
+&lt;p&gt;唔，，从后端开始，向全栈（full stack）进发！！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="go" /><category term="redrock" /><summary type="html">算是写一下题解，一共六项作业，，除了最后一个最长回文子串都写了,,,我得留点时间给高数作业</summary></entry><entry><title type="html">Solutions for Pasting codes</title><link href="http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html" rel="alternate" type="text/html" title="Solutions for Pasting codes" /><published>2020-10-05T00:00:00+08:00</published><updated>2020-10-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes</id><content type="html" xml:base="http://localhost:4000/2020/10/05/carbon.now.sh,-A-Wonderful-Solution-for-Pasting-codes.html">&lt;p&gt;这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -492,158 +566,11 @@ executed it’s still prints a two.&lt;/p&gt;</content><author><name>vonhyou</na
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/WC8PnqT.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;可以说是非常方便了！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="recommand" /><category term="effective" /><summary type="html">这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
+&lt;p&gt;可以说是非常方便了！&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="recommand" /><category term="effective" /><summary type="html">这几天在redrock的交流群里混，，很多小白喜欢用手机拍屏幕（这是坏文明！）dalao们也十分难受，在这里推荐几种贴代码的好方法</summary></entry><entry><title type="html">今晚喝了点小酒，所以不准备说什么</title><link href="http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html" rel="alternate" type="text/html" title="今晚喝了点小酒，所以不准备说什么" /><published>2020-10-03T00:00:00+08:00</published><updated>2020-10-03T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92,%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88</id><content type="html" xml:base="http://localhost:4000/2020/10/03/%E4%BB%8A%E6%99%9A%E5%96%9D%E4%BA%86%E7%82%B9%E5%B0%8F%E9%85%92-%E6%89%80%E4%BB%A5%E4%B8%8D%E5%87%86%E5%A4%87%E8%AF%B4%E4%BB%80%E4%B9%88.html">&lt;p&gt;就是标题的意思qwq&lt;/p&gt;
 
 &lt;p&gt;明天和同学，学长出去吃火锅，好开心~~&lt;/p&gt;
 
-&lt;p&gt;会很有意思吧，，早睡了嗷&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">就是标题的意思qwq 明天和同学，学长出去吃火锅，好开心~~ 会很有意思吧，，早睡了嗷</summary></entry><entry><title type="html">今晚，谈谈我的过去、现在以及未来(p1)</title><link href="https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html" rel="alternate" type="text/html" title="今晚，谈谈我的过去、现在以及未来(p1)" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A,%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB%E3%80%81%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/02/%E4%BB%8A%E6%99%9A-%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E4%BB%A5%E5%8F%8A%E6%9C%AA%E6%9D%A5.html">&lt;p&gt;这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义&lt;/p&gt;
-
-&lt;p&gt;但如果仔细去梳理，你/我/TA可能会更加了解这个个体，当然这件事情对于除了本体的那个人而言，毫无意义qwq&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;唔,,,,从哪里开始比较好呢,,,,2001年10月1日,,那天也是中秋+国庆,,然后,,,,还有啥呢?&lt;/p&gt;
-
-&lt;p&gt;记不清了,,,,,,只知道在每次饭局,七大姑八大姨聊不下去的时候,就会说一些我的童年经历(真假存疑),然后气氛变好,,再想起新话题的时候还不忘问问我记不记得——然而总是在我说出那句”不记得”之前,恍然大悟道”啊~~小孩子都是不记事的噢”迅速转移话题&lt;/p&gt;
-
-&lt;p&gt;好吧,我知道上面那段话毫无逻辑,语病连篇,但我也不想改了,因为这充分体现了当时的精神状态.&lt;/p&gt;
-
-&lt;p&gt;司马迁再写史记的时候选择不过多涉及历史久远的三皇五帝时期,我也不想过多触碰含混不清的东西,这段经历就此别过,我们从初中开始 (&lt;strong&gt;timestamp&lt;/strong&gt; 2020-10-02 20:36)&lt;/p&gt;
-
-&lt;h2 id=&quot;在jx的初中三年&quot;&gt;在JX的初中三年&lt;/h2&gt;
-
-&lt;p&gt;我很健忘的,尤其是人.我没有快速记住他人的能力,好不容易结识的人也可能转头就忘掉.这倒不是我薄情或是自视清高,毕竟我的社交圈狭窄,平时遇见的人又不少,可能大脑为了自我保护自动过滤了没有深刻印象的个体.&lt;/p&gt;
-
-&lt;p&gt;好吧,我在为思考半天想不起来一个小学同学和忘掉大部分初中同学找借口…..现实就是那么残酷不是吗?&lt;/p&gt;
-
-&lt;p&gt;奥托·魏宁格(Otto Weininger)在他激进的著作性与性格(&lt;em&gt;Geschlecht und Charakter&lt;/em&gt;)中提到过这样一个观点,就是天才(或者说用更恰当的说法——伟人)都有把自己人生点点滴滴事无巨细的连贯的记住的能力.起码从这点来看,我就不是成才的料&lt;/p&gt;
-
-&lt;p&gt;(ps: 我采访了初中及高中同学,保送Tsinghua的清芷酱,奥托在扯淡😒)&lt;/p&gt;
-
-&lt;p&gt;好吧抱歉我又扯远了,,(这时QQ音乐电台推荐跳到了&lt;strong&gt;残酷な天使のテーゼ&lt;/strong&gt;)扯这么多,言外之意有二:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;小学的事情一点都记不起来,或者说没啥需要记住的,初中也差不多&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;我很菜,但我菜的有根有据(bushi&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;好吧,现在进入正题,说说初中的经历:(&lt;strong&gt;Timestamp&lt;/strong&gt; 2020-10-02 21:02)&lt;/p&gt;
-
-&lt;h3 id=&quot;最初的最初&quot;&gt;最初的最初&lt;/h3&gt;
-
-&lt;p&gt;2014年,我以全年级前十的成绩(共8000多人参加考试)考入JX学校,那是我们这一代都还熟知的时代即将结束的时期——小升初还&lt;strong&gt;正儿八经的考试&lt;/strong&gt;而不是闭眼举手/一对一面试/调查父母教育水平甚至抽号入学的时代(就像买房一样);&lt;strong&gt;学费&lt;/strong&gt;还是8900而不是一年后的1w2,两年后的1w8和三年后的2w3;学校还没有搬迁,附近&lt;strong&gt;药厂爆炸&lt;/strong&gt;那会我还在初中部上晚自习,白雾没有飘过来&lt;/p&gt;
-
-&lt;h3 id=&quot;俯瞰&quot;&gt;俯瞰&lt;/h3&gt;
-
-&lt;p&gt;好吧,列举的都与学校有关.没办法,那会我眼界狭窄,看不到世界的宽广.整天再琢磨怎么逃掉不喜欢的音乐体育美术还有恼人的跑操.天天假装严肃,假装成熟,想着追到同班一个有点酷酷的女孩子(好吧现在我还是很喜欢酷酷的女孩子),绞尽脑汁去卖弄刚学到的鸡毛蒜皮.干过最傻的事情就是用p2p over在微机课限制机房网速然后被同学锤(有没有锤我是不记得了,但有一个和我表面关系不错实际上整天想暗地里整我的人告了老师,虽然没啥惩罚但是现在想起来心里还是很不舒服),其次是用telnet控制机房主机然后去控制那个女孩子的电脑假装闹鬼(捂脸,,你知道我把这段字打出来有多大心理负担吗!!!!),好吧,又是那个人把我举报了,幸亏我和所有微机老师关系都不错,只是口头警告(我到现在都很讨厌那个人,他几乎算是我初中三年不愉快的集合)&lt;/p&gt;
-
-&lt;h3 id=&quot;间章&quot;&gt;间章&lt;/h3&gt;
-
-&lt;p&gt;(这时,QQ音乐电台在放Sayuri的光与暗,,这是我第三次听到了,默默点个喜欢)&lt;/p&gt;
-
-&lt;p&gt;(&lt;strong&gt;Timestamp&lt;/strong&gt; 2020-10-02 21:23)&lt;/p&gt;
-
-&lt;p&gt;我知道这篇长文不会有谁从头到尾读完,因为它多半会被不想深入了解我的人看到. 我很孤独,很多情况下,,我承认,我是个正常的普通人,孤独不是个好东西.&lt;/p&gt;
-
-&lt;p&gt;所以写这种东西一方面有种买彩票的心理,就是投入巨大以求概率微小的头彩——&lt;em&gt;Meet someone knows me, Let somebody love me, And struggling for a brighter future&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;另一方面则是在做白日梦——万一将来成了伟人,这篇文章可能会成为著书立作的依据…………………………………………………………………………………………………………………….&lt;/p&gt;
-
-&lt;p&gt;好吧,现实一点,这篇文章的作用更是为了万一哪天我猝死,&lt;del&gt;留给大家的&lt;/del&gt;证明我活过的遗产——起码能坚持到github倒闭.&lt;/p&gt;
-
-&lt;p&gt;写到这里我突然想到之前的一个想法,就是给自己立个遗嘱,然后写个能在我死后从twitter上发个”这个账号的主人已经死了”之类的tweet&lt;/p&gt;
-
-&lt;p&gt;行,又扯远了,感觉今晚是写不完了,而且要拆分成好几个文章,,现在我就去改title&lt;/p&gt;
-
-&lt;h3 id=&quot;关于oi一开始&quot;&gt;关于OI(一):开始&lt;/h3&gt;
-
-&lt;p&gt;我是初一开始接触OI的,那会儿我也就拿电脑打打游戏,看看动画(btw 入宅作是超炮,五年级看的,之前一直在混百度贴吧玩mc)&lt;/p&gt;
-
-&lt;p&gt;学校最正式的竞赛项目有两个,一个是数学,一个是刚开始不久的OI.数学竞赛老师讲课用方言,我听不懂,而且个人也不是很喜欢,后来就加入了OI培训(具体原因我不记得了,可能和初中第一任班主任有关吧,关于他,我会在后边讲,一定会讲到的,因为他比较重要)&lt;/p&gt;
-
-&lt;p&gt;我记得最先学的是基础知识,进制转换啊什么的,教的很实用,我到现在还记得,所以可以在软工导论课放心摸鱼&lt;/p&gt;
-
-&lt;p&gt;那会我发现了,学习OI除了知识本身,更是谋取特权的重要途径——比如逃掉不喜欢的课和跑操(我做到了!),给成绩下滑做出合理解释,找理由去玩班主任的电脑(仅仅初一开始)&lt;/p&gt;
-
-&lt;p&gt;不得不说,那时候的我很讨厌,真的,我自己都觉得恶心——沉溺于高高在上的快感(是副班长,和老师关系好,学习好,受人欢迎),不思进取,arrogant,etc. 也可能是因为这点,那个讨厌我的人总想使绊子.&lt;/p&gt;
-
-&lt;p&gt;这里插一句, 随口一提,,最近在玩赛博朋克酒保行动(&lt;em&gt;VA-11 Hall-A: Cyberpunk Bartender Action&lt;/em&gt;),那位Donovan大叔曾经说过”人们关注明星只是为了等待那些在高台上闪耀的群星跌落人间,成为和自己一样失败的人”(好吧原话我忘了,但是大体这个意思,,我也知道把自己比作明星啊,伟人啊什么的很自恋,,可能心理学家能从中解读出什么东西)&lt;/p&gt;
-
-&lt;p&gt;好,我们来说说初一的那位班主任&lt;/p&gt;
-
-&lt;p&gt;btw,初高中六年我换了七任班主任,如果包括执教少于一个月的有九位,所有人我都会提到(这也是为什么我很讨厌老师说”我执教xx年,带了xx届学生,什么样的没见过”之类的——我还说自己上了这么多年学,啥老师没见过!)&lt;/p&gt;
-
-&lt;h3 id=&quot;说嘴郎中班主任1号&quot;&gt;说嘴郎中——班主任1号&lt;/h3&gt;
-
-&lt;p&gt;他很年轻,至少看起来很年轻,但是发际线比较靠后(不算一个快秃顶的这位排第二),如果我没记错,那年他29岁&lt;/p&gt;
-
-&lt;p&gt;(请原谅我的出言不逊,我知道这很没有礼貌,本来我也想重新用温和尊敬的语言写出来,但这更能传达我的具体心理状态,于是作罢)&lt;/p&gt;
-
-&lt;p&gt;他很受欢迎,真的.对于十三四岁的初中生来说,这个具有留学经历(后来无意打听到他和一位微机老师是校友), 有雄心壮志, 巧舌如簧, 年轻有活力的老师简直是福音.&lt;/p&gt;
-
-&lt;p&gt;他是英语老师,声称自己会德语和日语(当时还写了几个单词,比如&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Guten Tag!&lt;/code&gt;啥的来证明), 说要彻底改革教学方式, 还要把自己的教学成果写到书里(成果是班里的每一位同学).&lt;/p&gt;
-
-&lt;p&gt;我清楚的记着,军训那会,他在课间有一搭没一搭的打听同学们的英语水平,随着周围人越聚越多,他就开始放卫星——21天学好英语啊什么的——当然是用他的方法(这也是为什么初二的时候另一位老师焦头烂额的给我们补音标)&lt;/p&gt;
-
-&lt;p&gt;我们当然是超!开!心!啦!!&lt;/p&gt;
-
-&lt;p&gt;这么好的老师难得一遇嗷~&lt;/p&gt;
-
-&lt;p&gt;上课一直在吹b,拿课本上的知识问他,他会竭尽全力转移话题或者糊弄过去.&lt;/p&gt;
-
-&lt;p&gt;我记得很清楚的一次,就是课本上写着&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cannot&lt;/code&gt;,我问为什么不是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;can not&lt;/code&gt;,他在用尽一套挪移大法无果后,直接说这个地方是错的,还语重心长的说什么课本也有错误啦~要学会质疑权威什么的(当然这些话本身没错)我也就将信将疑——反正那会是被糊弄过去了&lt;/p&gt;
-
-&lt;p&gt;直到今天,我从Google上查到:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;can的否定形式为cannot,而cannot缩写为can’t, 反过来说can’t的原型是cannot而不是can not.Can not的写法极为罕见而且常被视为错误…&lt;a href=&quot;https://englishhome.org/cannot-or-can-not.html&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我敢肯定他绝对了解过这个知识点——只不过记错了,信誓旦旦的记错了.(&lt;strong&gt;Timestamp&lt;/strong&gt; 2020-10-02 22:24)&lt;/p&gt;
-
-&lt;p&gt;写到这里,我恍然大悟,自己喜欢卖弄知识的毛病可能源于这里,举另外一个例子:&lt;/p&gt;
-
-&lt;p&gt;他有一天在上课的时候,问同学们&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mom&lt;/code&gt;怎么写, 经过几番故作神秘后,他揭露谜底——必须是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mom&lt;/code&gt;而不是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mom&lt;/code&gt;——第一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;m&lt;/code&gt;必须大写&lt;/p&gt;
-
-&lt;p&gt;(刚刚在群里发泄(?)了一通,回来继续写,,接上)&lt;/p&gt;
-
-&lt;p&gt;同学们都惊为天人(我也是):哇!老师好厉害!如此仔细认真!!我们一定会越来越厉害!!(实际情况是初一结束我们班在倒数前三徘徊)&lt;/p&gt;
-
-&lt;p&gt;说点别的,他其实帮助了我很多,比如经常和我聊天,所谓不正常交往也没严肃处理(我们学校对此十分严格,,,好吧当然其实也没发生什么)&lt;/p&gt;
-
-&lt;p&gt;还有的话,,我记不起来了,有些事情也和我无关&lt;/p&gt;
-
-&lt;p&gt;啊,对了,在一天晚上我们从晚自习聊到放学,为了防止被记过,他把我送进宿舍,路上他说过这么一句话,大概是:以后能和你这样聊天的人真的不多.&lt;/p&gt;
-
-&lt;p&gt;我很赞同,直到现在也是,但奇怪的是直到最后(高中毕业),不管我成绩好与坏,我都能和老师打好关系(大部分),平时也断断续续的能有推心置腹聊天的好朋友&lt;/p&gt;
-
-&lt;p&gt;还有好多好多没有说,,但是要完全写出来就太长了(现在已经超出预期了)初一就到此为止吧,很多都是没营养的东西&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;做个总结&lt;/strong&gt;: 初一的我,比身边大部分同龄人强.但辨识能力差,很容易被忽悠.性格高傲自大,有一个喜欢的女孩子,但最后也不了了之.总之过得很滋润,但是结出的恶果到现在也一直影响着我.&lt;/p&gt;
-
-&lt;h3 id=&quot;关于oi二-摸鱼&quot;&gt;关于OI(二): 摸鱼&lt;/h3&gt;
-
-&lt;p&gt;到了初二,或者说是从假期去参加官方夏令营开始,我就发现自己喜欢的并不是算法什么的,而是摸鱼,特权,借口&lt;/p&gt;
-
-&lt;p&gt;那短短的七天好像也没啥值得记住的,好像就是上午听不懂,中午泡面打游戏,下午听不懂,晚上找地方充电玩质量效应,夜里用2G网冲浪,,&lt;/p&gt;
-
-&lt;p&gt;那几天最大的感触就是,原来有东西可以听不懂啊!原来一节课可以上两个小时!原来算法竞赛可以达到最高分300最低0分平均5点几啊! 学长们好厉害,带我飞!(指摸鱼)舰R好玩,我要玩到天荒地老!(后来百度渠道服关闭了,就再也没碰,,干!!!)&lt;/p&gt;
-
-&lt;p&gt;那时的我对社会有着幼稚的想法,主要是因为年龄限制,还有社会中的糟粕在层层过滤下对我造成的冲击&lt;/p&gt;
-
-&lt;p&gt;总之!!!在经历一段挣扎后,我从心安理得(其实是没注意到,当时没意识到自己在摸鱼)转变为在摸鱼和好好学习间反复横跳(直到现在)&lt;/p&gt;
-
-&lt;p&gt;先说结果吧,我OI就拿过俩奖,一个普及组省二(2015),一个提高组省二(2017),不懂的人觉得很厉害,但是搞过OI的人都知道这是啥水平(我在沙东👀)&lt;/p&gt;
-
-&lt;p&gt;反正从那时候开始,我就真正迈向堕落了😶&lt;/p&gt;
-
-&lt;p&gt;(&lt;strong&gt;Timestamp&lt;/strong&gt; 2020-10-02 23:27)&lt;/p&gt;
-
-&lt;p&gt;今天就写到这里吧,混蛋&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">这不是什么值得夸耀的东西，因为它无趣、冗长，对于他人又没有意义 但如果仔细去梳理，你/我/TA可能会更加了解这个个体，当然这件事情对于除了本体的那个人而言，毫无意义qwq</summary></entry><entry><title type="html">黄河站与北洋政府</title><link href="https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html" rel="alternate" type="text/html" title="黄河站与北洋政府" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C</id><content type="html" xml:base="https://blog.lenva.tech/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html">&lt;p&gt;2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。
+&lt;p&gt;会很有意思吧，，早睡了嗷&lt;/p&gt;</content><author><name>vonhyou</name><email>vonhyou@lenva.tech</email></author><category term="杂谈" /><category term="紊乱" /><summary type="html">就是标题的意思qwq 明天和同学，学长出去吃火锅，好开心~~ 会很有意思吧，，早睡了嗷</summary></entry><entry><title type="html">黄河站与北洋政府</title><link href="http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html" rel="alternate" type="text/html" title="黄河站与北洋政府" /><published>2020-10-02T00:00:00+08:00</published><updated>2020-10-02T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C</id><content type="html" xml:base="http://localhost:4000/2020/10/02/%E9%BB%84%E6%B2%B3%E7%AB%99%E4%B8%8E%E5%8C%97%E6%B4%8B%E6%94%BF%E5%BA%9C.html">&lt;p&gt;2004年7月28日，中国成为世界上第八个拥有北极科考站的国家。
 在维基百科词条&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%9E%81%E9%BB%84%E6%B2%B3%E7%AB%99&quot;&gt;中国北极黄河站&lt;/a&gt;里，关于建站的条目仅仅追溯到2001年初步拟定建造方案。&lt;/p&gt;
 
 &lt;p&gt;但中国这个最北只达53°30′的国家，之所以能在北纬75°55′的挪威境内建站，还与一项北洋政府签订的条约有关。&lt;/p&gt;
