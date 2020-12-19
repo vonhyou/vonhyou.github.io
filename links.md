@@ -4,6 +4,8 @@ titles: Links
 key: page-links
 ---
 
+Sakurai Kaede's Blog<p align = "right"><a href = https://sakurai.in>:heart:sakurai.in</a></p>
+
 moi的一般通过小站 <p align = "right"><a href = https://rain.moimo.me>:heart:rain.moimo.me</a></p>
 
 某岛  <p align = "right"><a href = http://www.shuizilong.com/house>:heart:shuizilong.com</a></p>
@@ -17,7 +19,6 @@ Kevin's Blog <p align = "right"><a href = http://blog.kevinfly.com>:heart:blog.k
 Raptazure <p align = "right"><a href = https://raptazure.github.io>:heart:raptazure.github.io</a></p>
 
 银河美术馆 <p align = "right"><a href = https://beautyyu.one>:heart:beautyyu.one</a></p>
-
 
 红茶馆 <p align = "right"><a href = https://onlyblacktea.cn>:heart:onlyblacktea.cn</a></p>
 
