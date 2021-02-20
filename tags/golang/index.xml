@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on das kleinlog</title>
+    <link>https://blog.lenva.tech/tags/golang/</link>
+    <description>Recent content in golang on das kleinlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Oct 2020 20:37:22 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defer in Golang</title>
+      <link>https://blog.lenva.tech/posts/defer-in-go/</link>
+      <pubDate>Sat, 17 Oct 2020 20:37:22 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/posts/defer-in-go/</guid>
+      <description>&lt;p&gt;The defer keyword is found in many modern programming languages, and Go&amp;rsquo;s defer executes the passed-in function before the current function or method returns. It is often used to close file descriptors, close database connections, and unlock resources.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A better way to implement getMax() in Golang</title>
+      <link>https://blog.lenva.tech/posts/better-getmax-in-go/</link>
+      <pubDate>Thu, 15 Oct 2020 20:41:44 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/posts/better-getmax-in-go/</guid>
+      <description>&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
+&lt;p&gt;By learning on Coursera, I found a better way to do this.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

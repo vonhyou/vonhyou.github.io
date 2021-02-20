@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>effective on das kleinlog</title>
+    <link>https://blog.lenva.tech/tags/effective/</link>
+    <description>Recent content in effective on das kleinlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Oct 2020 20:44:38 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/effective/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions for Pasting Codes</title>
+      <link>https://blog.lenva.tech/posts/better-paste-code/</link>
+      <pubDate>Mon, 05 Oct 2020 20:44:38 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/posts/better-paste-code/</guid>
+      <description>&lt;p&gt;The article shows several ways to elegantly share source code&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
