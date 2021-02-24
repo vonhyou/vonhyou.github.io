@@ -5,7 +5,16 @@
     <link>https://blog.lenva.tech/tags/</link>
     <description>Recent content in Tags on das kleinlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Oct 2020 20:37:22 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 19:24:29 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>summary</title>
+      <link>https://blog.lenva.tech/tags/summary/</link>
+      <pubDate>Tue, 23 Feb 2021 19:24:29 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/tags/summary/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://blog.lenva.tech/tags/golang/</link>
