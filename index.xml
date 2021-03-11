@@ -4,17 +4,7 @@
     <title>das kleinlog</title>
     <link>https://blog.lenva.tech/</link>
     <description>Recent content on das kleinlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Feb 2021 19:24:29 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Summary and Planning 01</title>
-      <link>https://blog.lenva.tech/posts/summary-and-planning-01/</link>
-      <pubDate>Tue, 23 Feb 2021 19:24:29 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/posts/summary-and-planning-01/</guid>
-      <description>&lt;p&gt;On the first day of 2021, I had the intention of writing an article of a summary nature, unsuccessfully.&lt;/p&gt;</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Links</title>
       <link>https://blog.lenva.tech/links/</link>
@@ -22,43 +12,6 @@
       
       <guid>https://blog.lenva.tech/links/</guid>
       <description>friend site     Sakurai Kaede&amp;rsquo;s Blog sakurai.in   某岛 shuizilong.com   moi的一般通过小站 rain.moimo.me   CANARYPWN&amp;rsquo;S NATïVE BLOG aaaab3n.moe   Labelray&amp;rsquo;s Blog blog.labelray.top   Kevin&amp;rsquo;s Blog blog.kevinfly.com   Raptazure raptazure.github.io   银河美术馆 beautyyu.one   红茶馆 onlyblacktea.cn   RAY ELDATH han.ninja   Lovely&amp;rsquo;s Blog blog.dmcmi.top   明心 subrige.xyz   VOY青年之声 gmdlvoy.blogspot.com   ムえ blog.</description>
-    </item>
-    
-    <item>
-      <title>Hallo neue Ära!</title>
-      <link>https://blog.lenva.tech/posts/hello-hugo/</link>
-      <pubDate>Sat, 20 Feb 2021 17:16:33 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/posts/hello-hugo/</guid>
-      <description>&lt;p&gt;In order to simplify the whole site and improve reading experience on mobile devices, I shifted to &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/a&gt;, themed &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;&lt;code&gt;PaperMod&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Defer in Golang</title>
-      <link>https://blog.lenva.tech/posts/defer-in-go/</link>
-      <pubDate>Sat, 17 Oct 2020 20:37:22 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/posts/defer-in-go/</guid>
-      <description>&lt;p&gt;The defer keyword is found in many modern programming languages, and Go&amp;rsquo;s defer executes the passed-in function before the current function or method returns. It is often used to close file descriptors, close database connections, and unlock resources.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A better way to implement getMax() in Golang</title>
-      <link>https://blog.lenva.tech/posts/better-getmax-in-go/</link>
-      <pubDate>Thu, 15 Oct 2020 20:41:44 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/posts/better-getmax-in-go/</guid>
-      <description>&lt;p&gt;In previous assignment, I was asked to implement a function which can pick the biggest number in a slice.&lt;/p&gt;
-&lt;p&gt;By learning on Coursera, I found a better way to do this.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Solutions for Pasting Codes</title>
-      <link>https://blog.lenva.tech/posts/better-paste-code/</link>
-      <pubDate>Mon, 05 Oct 2020 20:44:38 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/posts/better-paste-code/</guid>
-      <description>&lt;p&gt;The article shows several ways to elegantly share source code&lt;/p&gt;</description>
     </item>
     
     <item>

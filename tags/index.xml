@@ -4,43 +4,6 @@
     <title>Tags on das kleinlog</title>
     <link>https://blog.lenva.tech/tags/</link>
     <description>Recent content in Tags on das kleinlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Feb 2021 19:24:29 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>summary</title>
-      <link>https://blog.lenva.tech/tags/summary/</link>
-      <pubDate>Tue, 23 Feb 2021 19:24:29 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/tags/summary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://blog.lenva.tech/tags/golang/</link>
-      <pubDate>Sat, 17 Oct 2020 20:37:22 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://blog.lenva.tech/tags/tech/</link>
-      <pubDate>Sat, 17 Oct 2020 20:37:22 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>effective</title>
-      <link>https://blog.lenva.tech/tags/effective/</link>
-      <pubDate>Mon, 05 Oct 2020 20:44:38 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/tags/effective/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
