@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on das kleinlog</title>
+    <link>https://blog.lenva.tech/tags/music/</link>
+    <description>Recent content in music on das kleinlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Mar 2021 16:36:12 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🎧 Daily Music   #01</title>
+      <link>https://blog.lenva.tech/posts/daily-music-01/</link>
+      <pubDate>Thu, 11 Mar 2021 16:36:12 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/posts/daily-music-01/</guid>
+      <description>&lt;p&gt;灵光一现，于是daily music出现了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
