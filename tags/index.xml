@@ -4,16 +4,6 @@
     <title>Tags on das kleinlog</title>
     <link>https://blog.lenva.tech/tags/</link>
     <description>Recent content in Tags on das kleinlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Mar 2021 16:36:12 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>music</title>
-      <link>https://blog.lenva.tech/tags/music/</link>
-      <pubDate>Thu, 11 Mar 2021 16:36:12 +0800</pubDate>
-      
-      <guid>https://blog.lenva.tech/tags/music/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
