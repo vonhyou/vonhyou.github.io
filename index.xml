@@ -4,7 +4,17 @@
     <title>das kleinlog</title>
     <link>https://blog.lenva.tech/</link>
     <description>Recent content on das kleinlog</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 16 Apr 2021 10:53:37 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Simple Example Shows How to Learn</title>
+      <link>https://blog.lenva.tech/posts/a-learning-odyssey/</link>
+      <pubDate>Fri, 16 Apr 2021 10:53:37 +0800</pubDate>
+      
+      <guid>https://blog.lenva.tech/posts/a-learning-odyssey/</guid>
+      <description>&lt;p&gt;Gladwell once proposed his famous &lt;a href=&#34;https://en.wikipedia.org/wiki/Outliers_(book)#Reception&#34;&gt;&lt;em&gt;10,000-Hour Rule&lt;/em&gt;&lt;/a&gt;  in his book, which means that &amp;lsquo;Genius is not a natural talent but a continuous effort, and it takes 10,000 hours at least to go from ordinary to extraordinary.&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>links</title>
       <link>https://blog.lenva.tech/links/</link>
