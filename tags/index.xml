@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on das kleinlog</title>
-    <link>https://blog.lenva.tech/tags/</link>
+    <link>https://www.lenva.tech/tags/</link>
     <description>Recent content in Tags on das kleinlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Apr 2021 10:53:37 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 10:53:37 +0800</lastBuildDate><atom:link href="https://www.lenva.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coursera</title>
-      <link>https://blog.lenva.tech/tags/coursera/</link>
+      <link>https://www.lenva.tech/tags/coursera/</link>
       <pubDate>Fri, 16 Apr 2021 10:53:37 +0800</pubDate>
       
-      <guid>https://blog.lenva.tech/tags/coursera/</guid>
+      <guid>https://www.lenva.tech/tags/coursera/</guid>
       <description></description>
     </item>
     

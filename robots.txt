@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://blog.lenva.tech/sitemap.xml
+Sitemap: https://www.lenva.tech/sitemap.xml

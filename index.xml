@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>das kleinlog</title>
-    <link>https://blog.lenva.tech/</link>
+    <link>https://www.lenva.tech/</link>
     <description>Recent content on das kleinlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Apr 2021 10:53:37 +0800</lastBuildDate><atom:link href="https://blog.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 10:53:37 +0800</lastBuildDate><atom:link href="https://www.lenva.tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Learning &#39;Odyssey&#39;: A Simple Example Shows How to Learn</title>
-      <link>https://blog.lenva.tech/posts/a-learning-odyssey/</link>
+      <link>https://www.lenva.tech/posts/a-learning-odyssey/</link>
       <pubDate>Fri, 16 Apr 2021 10:53:37 +0800</pubDate>
       
-      <guid>https://blog.lenva.tech/posts/a-learning-odyssey/</guid>
+      <guid>https://www.lenva.tech/posts/a-learning-odyssey/</guid>
       <description>&lt;p&gt;Gladwell once proposed his famous &lt;a href=&#34;https://en.wikipedia.org/wiki/Outliers_(book)#Reception&#34;&gt;&lt;em&gt;10,000-Hour Rule&lt;/em&gt;&lt;/a&gt;  in his book, which means that &amp;lsquo;Genius is not a natural talent but a continuous effort, and it takes 10,000 hours at least to go from ordinary to extraordinary.&amp;rsquo;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>links</title>
-      <link>https://blog.lenva.tech/links/</link>
+      <link>https://www.lenva.tech/links/</link>
       <pubDate>Sat, 20 Feb 2021 21:31:59 +0800</pubDate>
       
-      <guid>https://blog.lenva.tech/links/</guid>
+      <guid>https://www.lenva.tech/links/</guid>
       <description>friend site     Sakurai Kaede&amp;rsquo;s Blog sakurai.in   某岛 shuizilong.com   moi的一般通过小站 rain.moimo.me   CANARYPWN&amp;rsquo;S NATïVE BLOG aaaab3n.moe   Labelray&amp;rsquo;s Blog blog.labelray.top   Kevin&amp;rsquo;s Blog blog.kevinfly.com   Raptazure raptazure.github.io   银河美术馆 beautyyu.one   红茶馆 onlyblacktea.cn   RAY ELDATH han.ninja   Lovely&amp;rsquo;s Blog blog.dmcmi.top   明心 subrige.xyz   VOY青年之声 gmdlvoy.blogspot.com   ムえ blog.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://blog.lenva.tech/search/</link>
+      <link>https://www.lenva.tech/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.lenva.tech/search/</guid>
+      <guid>https://www.lenva.tech/search/</guid>
       <description>search</description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://blog.lenva.tech/tags/</link>
+      <link>https://www.lenva.tech/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.lenva.tech/tags/</guid>
+      <guid>https://www.lenva.tech/tags/</guid>
       <description></description>
     </item>
     
